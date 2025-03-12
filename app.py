@@ -3,11 +3,12 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
+
 import seaborn as sns
 from scipy.stats import pearsonr
 from scipy.stats import ttest_ind
 from threading import RLock
+import matplotlib.pyplot as plt
 
 
 st.header(":blue[Analyzing Data from Video Game Sales]")
